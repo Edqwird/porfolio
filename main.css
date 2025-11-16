@@ -11,8 +11,9 @@ html {
 }
 
 .bar {
+    position: absolute;
     width: 100%;
-    height: 4vh;
+    height: 6vh;
     background-color: white;
 }
 
@@ -26,13 +27,13 @@ html {
 
 .barTexts a {
     font-family: sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 
 .titleOne {
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +45,7 @@ html {
     font-size: 6.3rem;
     font-family: sans-serif;
     font-weight: 700;
+    color: rgb(17, 17, 17);
 }
 
 .infoText {
@@ -56,13 +58,55 @@ html {
 .buttonOne {
     width: 100%;
     max-width: 350px;
-    height: 80px;
+    height: 90px;
     font-family: sans-serif;
     color: rgb(54, 54, 54);
     border-radius: 2rem;
     font-size: 2.3rem;
     border: none;
     border: 1px solid rgb(12, 89, 255);
+    cursor: pointer;
+}
+
+.buttonOne:hover {
+    background-color: white;
+}
+
+
+
+.titleTwo {
+    width: 100%;
+    /* height: 45vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.aboutText {
+    font-size: 6.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+
+.infoTextTwo {
+    text-align: center;
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.titleThree {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 
