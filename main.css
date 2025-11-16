@@ -34,23 +34,27 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .starText {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: undo;
 }
 
 .infoText {
     text-align: center;
+    font-size: 1.4rem;
+    font-family: undo1;
 }
 
 .buttonOne {
     width: 100%;
-    max-width: 150px;
-    height: 30px;
+    max-width: 250px;
+    height: 40px;
+    font-family: undo1;
     border-radius: 1rem;
+    font-size: 1.4rem;
     border: none;
     border: 1px solid orange;
 }
