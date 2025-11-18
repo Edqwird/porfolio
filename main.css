@@ -2,6 +2,9 @@ html {
     padding: 0;
     margin: 0;
     background: rgb(238, 238, 238);
+    -webkit-text-size-adjust: 100%; /* запрещает iOS уменьшать текст */
+    overscroll-behavior-y: none;    /* запрещает "отталкивания" страницы */
+    touch-action: manipulation;
 }
 
 * {
@@ -12,6 +15,9 @@ html {
 
 .body {
     padding-top: 6vh;
+    -webkit-text-size-adjust: 100%; /* запрещает iOS уменьшать текст */
+    overscroll-behavior-y: none;    /* запрещает "отталкивания" страницы */
+    touch-action: manipulation;
 }
 
 .bar {
@@ -20,6 +26,8 @@ html {
     height: 6vh;
     background-color: white;
     z-index: 100;
+    transform: translateZ(0); /* стабилизация в iOS */
+    -webkit-transform: translateZ(0);
 }
 
 .barTexts {
@@ -39,9 +47,9 @@ html {
 
 
 .titleOne {
-    /* padding-top: 6vh; */
+    padding-top: 90px;
     width: 100%;
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,7 +243,7 @@ html {
     /* width: 100%; */
     display: flex;
     justify-content: center;
-    min-width: 800px;
+    min-width: 80vw;
     border-radius: 3rem;
     height: 100%;
     background: rgb(243, 243, 243);
