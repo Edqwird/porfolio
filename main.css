@@ -101,11 +101,15 @@ html {
 }
 
 .infoTextTwo {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
     text-align: center;
-    color: rgb(54, 54, 54);
-    font-size: 2rem;
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
     font-family: sans-serif;
     width: 840px;
+    font-weight: bold;
 }
 
 .blocksOne {
@@ -195,10 +199,12 @@ html {
     font-family: sans-serif;
 }
 
+/* ТРЕТИЙ СЛАЙД ///////////////////////////////////////////////////////// */
+
 
 .titleThree {
     width: 100%;
-    height: 45vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +245,7 @@ html {
     padding: 70px;
 }
 
-.skillTextOne {
+.skillTextOne, .skillTextTwo, .skillTextThree {
     position: relative;
     display: flex;
     justify-content: start;
@@ -277,7 +283,7 @@ html {
     font-family: sans-serif;
 }
 
-.skillLineOne {
+.skillLineOne, .skillLineTwo, .skillLineThree  {
     position: relative;
     margin-top: 150px;
     width: 100%;
@@ -294,14 +300,6 @@ html {
     height: 100%;
     width: 55%;
     background: #0c59ff;
-}
-
-.skillTextTwo {
-    position: relative;
-    display: flex;
-    justify-content: start;
-    font-size: 3rem;
-    font-family: sans-serif;
 }
 
 .skillTextTwo::before {
@@ -334,15 +332,6 @@ html {
     font-family: sans-serif;
 }
 
-.skillLineTwo {
-    position: relative;
-    margin-top: 150px;
-    width: 100%;
-    height: 10px;
-    background: white;
-    border-radius: 2rem;
-}
-
 .skillLineTwo::before {
     position: absolute;
     top: 0;
@@ -351,14 +340,6 @@ html {
     height: 100%;
     width: 30%;
     background: #0c59ff;
-}
-
-.skillTextThree {
-    position: relative;
-    display: flex;
-    justify-content: start;
-    font-size: 3rem;
-    font-family: sans-serif;
 }
 
 .skillTextThree::before {
@@ -389,15 +370,6 @@ html {
 
     font-size: 2.3rem;
     font-family: sans-serif;
-}
-
-.skillLineThree {
-    position: relative;
-    margin-top: 150px;
-    width: 100%;
-    height: 10px;
-    background: white;
-    border-radius: 2rem;
 }
 
 .skillLineThree::before {
