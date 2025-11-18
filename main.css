@@ -72,7 +72,7 @@ html {
     border-radius: 3rem;
     font-size: 2.3rem;
     border: none;
-    border: 2px solid rgb(12, 89, 255);
+    border: 2px solid #0c59ff;
     cursor: pointer;
 }
 
@@ -227,14 +227,188 @@ html {
 
 :is(.skillBoxOne, .skillBoxTwo, .skillBoxThree) {
     /* width: 100%; */
+    display: flex;
+    justify-content: center;
     min-width: 800px;
     border-radius: 3rem;
-    height: 90%;
+    height: 100%;
     background: rgb(243, 243, 243);
-    display: inline-block;
+    display: flex;
     scroll-snap-align: start;
+    flex-direction: column;
+    padding: 70px;
 }
 
+.skillTextOne {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextOne::before {
+    content: '55%';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextOne::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Язык';
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 180px;
+    height: 60px;
+    border-radius: 1.5rem;
+    background: rgb(177, 175, 175);
+    display: flex;
+
+    font-size: 2.3rem;
+    font-family: sans-serif;
+}
+
+.skillLineOne {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 2rem;
+}
+
+.skillLineOne::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 55%;
+    background: #0c59ff;
+}
+
+.skillTextTwo {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextTwo::before {
+    content: '30%';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextTwo::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Язык';
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 180px;
+    height: 60px;
+    border-radius: 1.5rem;
+    background: rgb(177, 175, 175);
+    display: flex;
+
+    font-size: 2.3rem;
+    font-family: sans-serif;
+}
+
+.skillLineTwo {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 2rem;
+}
+
+.skillLineTwo::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 30%;
+    background: #0c59ff;
+}
+
+.skillTextThree {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextThree::before {
+    content: '43%';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.skillTextThree::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Язык';
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 180px;
+    height: 60px;
+    border-radius: 1.5rem;
+    background: rgb(177, 175, 175);
+    display: flex;
+
+    font-size: 2.3rem;
+    font-family: sans-serif;
+}
+
+.skillLineThree {
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 10px;
+    background: white;
+    border-radius: 2rem;
+}
+
+.skillLineThree::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 43%;
+    background: #0c59ff;
+}
 
 
 
