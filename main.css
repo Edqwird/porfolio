@@ -11,10 +11,11 @@ html {
 }
 
 .bar {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 6vh;
     background-color: white;
+    z-index: 100;
 }
 
 .barTexts {
@@ -30,10 +31,13 @@ html {
     font-size: 2rem;
 }
 
+/* ПЕРВЫЙ СЛАЙД //////////////////////////////////////////////////////////////////////////////*/
+
 
 .titleOne {
+    padding-top: 6vh;
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +76,7 @@ html {
     background-color: white;
 }
 
-
+/* ВТОРОЙ СЛАЙД //////////////////////////////////////////////////////////////////////////////*/
 
 .titleTwo {
     width: 100%;
@@ -111,8 +115,8 @@ html {
 
 .boxOne {
     width: 100%;
-    max-width: 800px;
-    height: 300px;
+    max-width: 900px;
+    height: 400px;
     border-radius: 3rem;
     background: rgb(255, 255, 255);
     display: flex;
@@ -124,22 +128,21 @@ html {
 
 .boxOneText {
     color: rgb(17, 17, 17);
-    font-size: 3rem;
+    font-size: 3.8rem;
     font-family: sans-serif;
     font-weight: 700;
 }
 
 .boxOneSub {
     color: rgb(54, 54, 54);
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-family: sans-serif;
-    font-weight: 700;
 }
 
 .boxTwo {
     width: 100%;
-    max-width: 800px;
-    height: 300px;
+    max-width: 900px;
+    height: 400px;
     border-radius: 3rem;
     background: rgb(255, 255, 255);
     display: flex;
@@ -151,8 +154,8 @@ html {
 
 .boxThree {
     width: 100%;
-    max-width: 800px;
-    height: 300px;
+    max-width: 900px;
+    height: 400px;
     border-radius: 3rem;
     background: rgb(255, 255, 255);
     display: flex;
