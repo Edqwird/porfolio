@@ -72,7 +72,7 @@ html {
     border-radius: 3rem;
     font-size: 2.3rem;
     border: none;
-    border: 1px solid rgb(12, 89, 255);
+    border: 2px solid rgb(12, 89, 255);
     cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
 }
 
 
@@ -156,6 +156,19 @@ html {
     gap: 50px;
 }
 
+.boxTwoText {
+    color: rgb(17, 17, 17);
+    font-size: 3.8rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.boxTwoSub {
+    color: rgb(54, 54, 54);
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+
 .boxThree {
     width: 100%;
     max-width: 900px;
@@ -169,6 +182,19 @@ html {
     gap: 50px;
 }
 
+.boxThreeText {
+    color: rgb(17, 17, 17);
+    font-size: 3.8rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.boxThreeSub {
+    color: rgb(54, 54, 54);
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+
 
 .titleThree {
     width: 100%;
@@ -177,7 +203,36 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 100px;
+}
+
+.blocksTwo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 3rem;
+    height: 500px;
+    background: white;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap; /* ВАЖНО: запрещает перенос */
+    padding: 50px;
+    flex-direction: row;
     gap: 50px;
+    /* scroll-snap-type: x mandatory; /* включаем прилипания */
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+:is(.skillBoxOne, .skillBoxTwo, .skillBoxThree) {
+    /* width: 100%; */
+    min-width: 800px;
+    border-radius: 3rem;
+    height: 90%;
+    background: rgb(243, 243, 243);
+    display: inline-block;
+    scroll-snap-align: start;
 }
 
 
