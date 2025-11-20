@@ -35,7 +35,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 00px;
+    gap: 50px;
 }
 
 .barTexts a {
