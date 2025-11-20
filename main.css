@@ -35,7 +35,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 00px;
 }
 
 .barTexts a {
@@ -47,9 +47,10 @@ html {
 
 
 .titleOne {
-    padding-top: 90px;
+    padding-top: 300px;
+    margin-bottom: 200px;
     width: 100%;
-    min-height: 60vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
