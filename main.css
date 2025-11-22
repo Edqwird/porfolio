@@ -32,7 +32,7 @@ html {
 
 .barTexts {
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -41,6 +41,36 @@ html {
 .barTexts a {
     font-family: sans-serif;
     font-size: 2rem;
+}
+
+.barTextsMobile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+}
+
+.oneBarM {
+    display: flex;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.twoBarM {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: undo1;
+    color: #ffffff;
+    width: 270px;
+    height: 70px;
+    border-radius: 1.5rem;
+    background: #0c59ff;
 }
 
 /* ПЕРВЫЙ СЛАЙД //////////////////////////////////////////////////////////////////////////////*/
@@ -63,7 +93,7 @@ html {
     font-size: 6.3rem;
     font-family: sans-serif;
     font-weight: 700;
-    color: rgb(17, 17, 17);
+    color: #333333;
 }
 
 .infoText {
@@ -108,7 +138,7 @@ html {
     font-size: 6.3rem;
     font-family: sans-serif;
     font-weight: 700;
-    color: rgb(17, 17, 17);
+    color: #333333;
 }
 
 .infoTextTwo {
@@ -147,39 +177,13 @@ html {
 }
 
 .boxOneText {
-    color: rgb(17, 17, 17);
+    color: #333333;
     font-size: 3.8rem;
     font-family: sans-serif;
     font-weight: 700;
 }
 
 .boxOneSub {
-    color: rgb(54, 54, 54);
-    font-size: 1.7rem;
-    font-family: sans-serif;
-}
-
-.boxTwoText {
-    color: rgb(17, 17, 17);
-    font-size: 3.8rem;
-    font-family: sans-serif;
-    font-weight: 700;
-}
-
-.boxTwoSub {
-    color: rgb(54, 54, 54);
-    font-size: 1.7rem;
-    font-family: sans-serif;
-}
-
-.boxThreeText {
-    color: rgb(17, 17, 17);
-    font-size: 3.8rem;
-    font-family: sans-serif;
-    font-weight: 700;
-}
-
-.boxThreeSub {
     color: rgb(54, 54, 54);
     font-size: 1.7rem;
     font-family: sans-serif;
@@ -424,7 +428,25 @@ html {
     font-size: 2.8rem;
     font-family: sans-serif;
     font-weight: 700;
+    color: #333333;
 }
+
+/* .feedOneTextS {
+    width: 100%;
+    max-width: 360px;
+    font-size: 2.8rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #0c59ff;
+}
+
+.feedTwoTextS {
+    width: 100%;
+    max-width: 360px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgb(61, 61, 61);
+} */
 
 .feedTwoText {
     width: 100%;
