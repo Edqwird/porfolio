@@ -47,8 +47,8 @@ html {
 
 
 .titleOne {
-    padding-top: 20vh;
-    margin-bottom: 20vh;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
     width: 100%;
     /* min-height: 10vh; */
     display: flex;
@@ -59,6 +59,7 @@ html {
 }
 
 .starText {
+    margin-top: 10vh;
     font-size: 6.3rem;
     font-family: sans-serif;
     font-weight: 700;
@@ -403,6 +404,7 @@ html {
     min-width: 430px;
     min-height: 400px;
     border-radius: 2rem;
+
 }
 
 .boxFeed {
