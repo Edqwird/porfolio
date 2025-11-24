@@ -515,9 +515,10 @@ html {
 }
 
 .widthBox {
+    margin-top: 50px;
     width: 100%;
     min-width: 900px;
-    min-height: 60vh;
+    min-height: 50vh;
     background: #ffffff;
     display: flex;
     flex-direction: column;
@@ -540,7 +541,7 @@ html {
 
 .name {
     width: 800px;
-    min-height: 100px;
+    min-height: 130px;
     background: #c7c7c7;
     border-radius: 2rem;
     border: none;
@@ -571,12 +572,13 @@ html {
 
 .name-text::before {
     position: absolute;
-    top: 45px;
+    top: 90px;
+    width: 400px;
     left: 0;
     content: 'Вы не ввели свое фио';
     color: rgb(255, 87, 87);
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 1.7rem;
     padding-left: 15px;
     opacity: 0;
 }
@@ -592,15 +594,15 @@ html {
 
 .name:focus + .name-text,
 .name:not(:placeholder-shown) + .name-text {
-    transform: translateY(-20px);
-    font-size: 1.8rem;
-    color: rgb(39, 39, 39);
+    transform: translateY(-50px);
+    font-size: 1.7rem;
+    color: rgb(133, 133, 133);
 }
 
 .social {
     padding-left: 25px;
     width: 800px;
-    min-height: 100px;
+    min-height: 130px;
     background: #c7c7c7;
     border-radius: 2rem;
     border: none;
@@ -630,12 +632,13 @@ html {
 
 .social-text::before {
     position: absolute;
-    top: 45px;
+    top: 90px;
+    width: 400px;
     left: 0;
     content: 'Вы не ввели свое фио';
     color: rgb(255, 87, 87);
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 1.7rem;
     padding-left: 15px;
     opacity: 0;
 }
@@ -651,16 +654,16 @@ html {
 
 .social:focus + .social-text,
 .social:not(:placeholder-shown) + .social-text {
-    transform: translateY(-20px);
-    font-size: 1.8rem;
-    color: rgb(39, 39, 39);
+    transform: translateY(-50px);
+    font-size: 1.7rem;
+    color: rgb(133, 133, 133);
 }
 
 
 .email {
     padding-left: 25px;
     width: 800px;
-    min-height: 100px;
+    min-height: 130px;
     background: #c7c7c7;
     border-radius: 2rem;
     border: none;
@@ -690,12 +693,13 @@ html {
 
 .email-text::before {
     position: absolute;
-    top: 45px;
+    top: 90px;
+    width: 400px;
     left: 0;
     content: 'Вы не ввели свое фио';
     color: rgb(255, 87, 87);
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 1.7rem;
     padding-left: 15px;
     opacity: 0;
 }
@@ -711,9 +715,9 @@ html {
 
 .email:focus + .email-text,
 .email:not(:placeholder-shown) + .email-text {
-    transform: translateY(-20px);
-    font-size: 1.8rem;
-    color: rgb(39, 39, 39);
+    transform: translateY(-50px);
+    font-size: 1.7rem;
+    color: rgb(133, 133, 133);
 }
 
 .message {
@@ -729,7 +733,7 @@ html {
     border: none;
     font-size: 2rem;
     color: black;
-    padding: 10px 0 0 15px;
+    /* padding: 10px 0 0 15px; */
     white-space: pre-wrap;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -737,8 +741,8 @@ html {
     max-height: 150px;
     resize: none;
     overflow-y: auto;
-    padding: 15px;
-    padding-top: 30px;
+    /* padding: 15px; */
+    padding-top: 40px;
 }
 
 .message::-webkit-scrollbar {
@@ -781,14 +785,14 @@ html {
 }
 
 .message-text::before {
-    width: 300px;
+    width: 700px;
     position: absolute;
-    top: 110px;
+    top: 120px;
     left: 0;
     content: 'Напишите с какой целью хотите связаться';
     color: rgb(255, 87, 87);
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 1.7rem;
     padding-left: 15px;
     opacity: 0;
 }
@@ -804,8 +808,8 @@ html {
 
 .message:focus + .message-text,
 .message:not(:placeholder-shown) + .message-text {
-    transform: translateY(-55px);
-    font-size: 1.8rem;
+    transform: translateY(-65px);
+    font-size: 1.7rem;
     color: rgb(133, 133, 133);
 }
 
@@ -814,11 +818,11 @@ html {
     width: 90%;
     min-width: 100px;
     height: 100%;
-    min-height: 100px;
+    min-height: 130px;
     background:#0c59ff;
     border: 2px solid rgb(156, 156, 156);
     border-radius: 2rem;
-    color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -845,7 +849,7 @@ html {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: #e4e4e4;
+    background: #032f8f;
     z-index: 0;
     transition: left 1s ease;
     box-shadow: -10px 0 10px 0 #85f802;
@@ -855,7 +859,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 2rem;
     font-family: undo1;
     content: "✔ Сообщение отправлено";
     position: absolute;
@@ -877,7 +881,7 @@ html {
 .button-message.clicked::after {
     animation: accept 1s ease forwards;
     animation-delay: 1s;
-    color: #000000;
+    color: white;
 }
 
 @keyframes accept {
