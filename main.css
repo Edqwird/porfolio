@@ -425,7 +425,7 @@ html {
 /* ЧЕТВЕРТЫЙ СЛАЙД //////////////////////////////////////////////////////////////////////// */
 
 .titleFour {
-    margin-bottom: 5vh;
+    /* margin-bottom: 5vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -511,7 +511,7 @@ html {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    min-height: 60vh;
+    min-height: 10vh;
 }
 
 .widthBox {
