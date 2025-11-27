@@ -21,9 +21,11 @@ html {
 }
 
 .bar {
+    display: flex;
+    align-items: center;
     position: fixed;
     width: 100%;
-    height: 6vh;
+    min-height: 6vh;
     background-color: white;
     z-index: 100;
     transform: translateZ(0); /* стабилизация в iOS */
