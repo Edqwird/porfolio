@@ -79,8 +79,8 @@ html {
 
 
 .titleOne {
-    /* padding-top: 5vh;
-    margin-bottom: 10vh; */
+    padding-top: 5vh;
+    margin-bottom: 10vh;
     width: 100%;
     /* min-height: 10vh; */
     display: flex;
