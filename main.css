@@ -14,7 +14,7 @@ html {
 }
 
 .body {
-    padding-top: 6vh;
+    padding-top: 60px;
     -webkit-text-size-adjust: 100%; /* запрещает iOS уменьшать текст */
     overscroll-behavior-y: none;    /* запрещает "отталкивания" страницы */
     touch-action: manipulation;
@@ -25,7 +25,7 @@ html {
     align-items: center;
     position: fixed;
     width: 100%;
-    min-height: 6vh;
+    height: 120px;
     background-color: white;
     z-index: 100;
     transform: translateZ(0); /* стабилизация в iOS */
