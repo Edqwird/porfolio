@@ -518,10 +518,11 @@ html {
 
 .widthBox {
     display: flex;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     width: 100%;
     min-width: 900px;
-    min-height: 50vh;
+    min-height: 600px;
+    height: auto;
     background: #ffffff;
     flex-direction: column;
     gap: 50px;
@@ -529,6 +530,9 @@ html {
     justify-content: center;
     box-shadow: 0 10px 0 0 rgb(221, 221, 221);
     border-radius: 2rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 70px;
 }
 
 .boxis-one, .boxis-two, .boxis-three, .boxis-four, .boxis-fife {
