@@ -427,12 +427,12 @@ html {
 /* ЧЕТВЕРТЫЙ СЛАЙД //////////////////////////////////////////////////////////////////////// */
 
 .titleFour {
-    /* margin-bottom: 5vh; */
+    margin-bottom: 5vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
 }
 
 .feedbackBox {
@@ -517,12 +517,12 @@ html {
 }
 
 .widthBox {
-    margin-top: 50px;
+    display: flex;
+    /* margin-top: 50px; */
     width: 100%;
     min-width: 900px;
     min-height: 50vh;
     background: #ffffff;
-    display: flex;
     flex-direction: column;
     gap: 50px;
     align-items: center;
