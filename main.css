@@ -176,6 +176,7 @@ html {
     justify-content: center;
     padding: 50px;
     gap: 50px;
+    position: relative;
 }
 
 .boxOneText {
@@ -189,6 +190,36 @@ html {
     color: rgb(54, 54, 54);
     font-size: 1.7rem;
     font-family: sans-serif;
+}
+
+.imgOne {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    width: 110px;
+    /* left: 550px; */
+    transform: translate(600%, -80%);
+}
+
+.imgTwo {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    width: 110px;
+    /* left: 550px; */
+    transform: translate(600%, -80%);
+}
+
+.imgThree {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    width: 110px;
+    /* left: 550px; */
+    transform: translate(600%, -80%);
 }
 
 /* ТРЕТИЙ СЛАЙД ///////////////////////////////////////////////////////// */
@@ -455,6 +486,8 @@ html {
     min-width: 430px;
     min-height: 400px;
     border-radius: 2rem;
+    position: relative; /* Добавляем для корректного позиционирования */
+    overflow: hidden;
 
 }
 
@@ -478,29 +511,19 @@ html {
     color: #333333;
 }
 
-/* .feedOneTextS {
-    width: 100%;
-    max-width: 360px;
-    font-size: 2.8rem;
-    font-family: sans-serif;
-    font-weight: 700;
-    color: #0c59ff;
-}
-
-.feedTwoTextS {
-    width: 100%;
-    max-width: 360px;
-    font-size: 2rem;
-    font-family: sans-serif;
-    color: rgb(61, 61, 61);
-} */
-
 .feedTwoText {
     width: 100%;
     max-width: 360px;
     font-size: 2rem;
     font-family: sans-serif;
     color: rgb(61, 61, 61);
+}
+
+.imgFeedBack {
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    width: 200px;
 }
 
 
