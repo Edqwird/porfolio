@@ -197,9 +197,9 @@ html {
     justify-content: end;
     align-items: end;
     position: absolute;
-    width: 110px;
+   width: 170px;
     /* left: 550px; */
-    transform: translate(600%, -80%);
+    transform: translate(380%, -50%);
 }
 
 .imgTwo {
@@ -207,9 +207,9 @@ html {
     justify-content: end;
     align-items: end;
     position: absolute;
-    width: 110px;
+    width: 170px;
     /* left: 550px; */
-    transform: translate(600%, -80%);
+    transform: translate(380%, -50%);
 }
 
 .imgThree {
@@ -217,9 +217,9 @@ html {
     justify-content: end;
     align-items: end;
     position: absolute;
-    width: 110px;
+    width: 170px;
     /* left: 550px; */
-    transform: translate(600%, -80%);
+    transform: translate(380%, -50%);
 }
 
 /* ТРЕТИЙ СЛАЙД ///////////////////////////////////////////////////////// */
@@ -521,9 +521,9 @@ html {
 
 .imgFeedBack {
     position: absolute;
-    top: 240px;
+    top: 200px;
     left: 200px;
-    width: 200px;
+    width: 240px;
 }
 
 
